@@ -182,12 +182,13 @@ td.description{
 }
 td.income{
   color: #12a454;
-  padding: 2px;
+ padding:15px
   
 }
 td.expense{
   color: #e92929 ;
-  padding: 2px;
+  padding: 10px;
+  
 }
 
 .red{
