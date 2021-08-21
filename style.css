@@ -85,7 +85,8 @@ button:hover{
 
 
 .button.new{
-  display: inline-block;
+ margin-top: -20px;
+  position:absolute;
   margin-bottom:.8rem
 }
 
