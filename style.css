@@ -182,9 +182,11 @@ td.description{
 }
 td.income{
   color: #12a454;
+  
 }
 td.expense{
   color: #e92929 ;
+  padding: 2px;
 }
 
  table thead tr th:first-child, 
