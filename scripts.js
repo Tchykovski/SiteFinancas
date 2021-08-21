@@ -47,8 +47,15 @@ const Transaction = {
     return expense
   },
   total() {
+    let verifyTotal = Transaction.incomes() + Transaction.expenses()
 
-    return Transaction.incomes() + Transaction.expenses()
+    if (verifyTotal < 0) {
+      document.getElementById('verifyTotal').classList.add("red")
+    } else {
+      document.getElementById('verifyTotal').classList.remove("red")
+    }
+
+    return verifyTotal
   }
 }
 
