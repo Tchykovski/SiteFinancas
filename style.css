@@ -182,6 +182,7 @@ td.description{
 }
 td.income{
   color: #12a454;
+  padding: 2px;
   
 }
 td.expense{
